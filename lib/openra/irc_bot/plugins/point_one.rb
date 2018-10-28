@@ -7,7 +7,7 @@ module Openra
         match '.1'
 
         def execute(m)
-          m.reply "Gotta go, my #{nouns.sample} is #{verbs.sample}"
+          m.reply "Gotta go, my #{nouns.sample} #{verbs.sample}"
         end
 
         private
