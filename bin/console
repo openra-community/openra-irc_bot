@@ -1,0 +1,24 @@
+#!/usr/bin/env ruby
+
+require 'bundler/setup'
+require 'openra/irc_bot'
+
+type = ARGV.size > 1 ? nil : (ARGV.first || 'pry')
+ARGV.clear
+
+case type
+when 'pry'
+  require 'pry'
+  Pry.start
+when 'irb'
+  require 'irb'
+  IRB.start(__FILE__)
+else
+  puts %(
+    Invalid option(s) specified.
+    You can run the console as either IRB or Pry:
+      bin/console irb   => IRB
+      bin/console pry   => Pry
+      bin/console       => Pry
+  )
+end
