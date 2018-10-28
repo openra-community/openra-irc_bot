@@ -9,7 +9,7 @@ module Openra
       return false if defined?(@loaded)
 
       Dictionary.add_path(
-        File.expand_path('config/dictionaries')
+        File.join(__dir__, '../../', 'config', 'dictionaries')
       )
 
       @loaded = true
