@@ -33,6 +33,11 @@ argument with my rebbutal of no substance
 I'm not playing this map, it's imbalanced!
 ```
 
+#### `!pinkman` - `Openra::IRCBot::Plugins::Pinkman`
+```
+ello boys
+```
+
 #### `!.1` - `Openra::IRCBot::Plugins::PointOne`
 ```
 # Generates a random excuse, i.e.
@@ -67,6 +72,7 @@ bot = Openra::IRCBot.new do
       Openra::IRCBot::Plugins::Happy,
       Openra::IRCBot::Plugins::Na,
       Openra::IRCBot::Plugins::Orb,
+      Openra::IRCBot::Plugins::Pinkman,
       Openra::IRCBot::Plugins::PointOne,
       Openra::IRCBot::Plugins::SoScared,
       Openra::IRCBot::Plugins::Talix
