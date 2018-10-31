@@ -1,0 +1,26 @@
+en:
+  wee_man:
+    prefix:
+      user: '%{user} is a'
+      anon: You are a
+    first:
+      - cock
+      - sheep
+      - shit
+      - whore
+    second:
+      - loving
+      - eating
+      - shagging
+      - milking
+    third:
+      - arse
+      - dick
+      - piss
+      - crack
+      - meth
+    fourth:
+      - bandit
+      - goblin
+      - gobbler
+      - chewer

@@ -54,6 +54,15 @@ rarararararara
 RAGLHF!
 ```
 
+#### `!weeman #{username}` - `Openra::IRCBot::Plugins::PointOne`
+```
+# Generates a random insult, i.e.
+# !weeman Pinkman
+Pinkman is a sheep shagging dick bandit
+# !weeman
+You are a whore loving piss gobbler
+```
+
 Example usage:
 
 ```ruby
@@ -75,7 +84,8 @@ bot = Openra::IRCBot.new do
       Openra::IRCBot::Plugins::Pinkman,
       Openra::IRCBot::Plugins::PointOne,
       Openra::IRCBot::Plugins::SoScared,
-      Openra::IRCBot::Plugins::Talix
+      Openra::IRCBot::Plugins::Talix,
+      Openra::IRCBot::Plugins::WeeMan
     ]
   end
 end

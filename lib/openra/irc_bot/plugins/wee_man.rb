@@ -4,11 +4,11 @@ module Openra
       class WeeMan
         include Cinch::Plugin
 
-        match /weeman (\s)+/
+        match /weeman\s?(.+)?$/
 
         def execute(m, user)
           m.reply <<-QUOTE.strip.gsub(/\s+/, ' ')
-            #{user} is a
+            #{prefix(user)}
             #{first.sample} #{second.sample} #{third.sample} #{fourth.sample}
           QUOTE
         end
@@ -29,6 +29,14 @@ module Openra
 
         def fourth
           @fourth ||= Openra::IRCBot.dict('wee_man.fourth')
+        end
+
+        def prefix(user)
+          if user
+            prefix = Openra::IRCBot.dict('wee_man.prefix.user', user: user)
+          else
+            prefix = Openra::IRCBot.dict('wee_man.prefix.anon')
+          end
         end
       end
     end
