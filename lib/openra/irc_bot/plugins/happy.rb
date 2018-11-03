@@ -7,7 +7,7 @@ module Openra
         match 'happy'
 
         def execute(m)
-          m.reply 'I would like to delay my RAGL games infinitely'
+          m.reply 'I would like to delay my RAGL games indefinitely'
         end
       end
     end
