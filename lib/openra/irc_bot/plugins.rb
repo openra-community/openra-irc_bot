@@ -1,5 +1,6 @@
 require 'openra/irc_bot/plugins/eskimo'
 require 'openra/irc_bot/plugins/five_aces'
+require 'openra/irc_bot/plugins/five_aces_out'
 require 'openra/irc_bot/plugins/gatekeeper'
 require 'openra/irc_bot/plugins/happy'
 require 'openra/irc_bot/plugins/na'

@@ -12,6 +12,11 @@ Yeh nah gg... lol, jk, I win!
 Hey hey people, FiveAces here!
 ```
 
+#### `!fiveacesout` - `Openra::IRCBot::Plugins::FiveAcesOut`
+```
+FiveAces out...
+```
+
 #### `!gatekeeper` - `Openra::IRCBot::Plugins::Gatekeeper`
 ```
 Yeh nah gg
@@ -80,6 +85,7 @@ bot = Openra::IRCBot.new do
     config.plugins.plugins = [
       Openra::IRCBot::Plugins::Eskimo,
       Openra::IRCBot::Plugins::FiveAces,
+      Openra::IRCBot::Plugins::FiveAcesOut,
       Openra::IRCBot::Plugins::Gatekeeper,
       Openra::IRCBot::Plugins::Happy,
       Openra::IRCBot::Plugins::Na,
