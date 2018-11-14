@@ -30,7 +30,10 @@ argument with my rebbutal of no substance
 
 #### `!orb` - `Openra::IRCBot::Plugins::Orb`
 ```
+# Either
 I'm not playing this map, it's imbalanced!
+# or
+Not playing this map, it has oils that I don't know that are there
 ```
 
 #### `!pinkman` - `Openra::IRCBot::Plugins::Pinkman`
