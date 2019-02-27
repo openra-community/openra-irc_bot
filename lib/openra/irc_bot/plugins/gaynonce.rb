@@ -1,7 +1,7 @@
 module Openra
   class IRCBot < Cinch::Bot
     module Plugins
-      class Gatekeeper
+      class Gaynonce
         include Cinch::Plugin
 
         match 'gaynonce'
