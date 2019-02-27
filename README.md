@@ -21,6 +21,13 @@ FiveAces out...
 ```
 Yeh nah gg
 ```
+```
+
+#### `!gaynonce` - `Openra::IRCBot::Plugins::Gaynonce`
+```
+You ever daydream about kissing young boys?...
+Nah, me neither, they're too young and not sexy and have unattractive genetalia.
+```
 
 #### `!happy` - `Openra::IRCBot::Plugins::Happy`
 ```
@@ -87,6 +94,7 @@ bot = Openra::IRCBot.new do
       Openra::IRCBot::Plugins::FiveAces,
       Openra::IRCBot::Plugins::FiveAcesOut,
       Openra::IRCBot::Plugins::Gatekeeper,
+      Openra::IRCBot::Plugins::Gaynonce,
       Openra::IRCBot::Plugins::Happy,
       Openra::IRCBot::Plugins::Na,
       Openra::IRCBot::Plugins::Orb,
