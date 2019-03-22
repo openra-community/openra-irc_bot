@@ -34,6 +34,11 @@ Nah, me neither, they're too young and not sexy and have unattractive genetalia.
 I would like to delay my RAGL games infinitely
 ```
 
+#### `!jizzkcs` - `Openra::IRCBot::Plugins::JizzKcs`
+```
+Orange man bad
+```
+
 #### `!n/a` - `Openra::IRCBot::Plugins::Na`
 ```
 Thus, ergo, concordantly, I must declare that I have won this
@@ -96,6 +101,7 @@ bot = Openra::IRCBot.new do
       Openra::IRCBot::Plugins::Gatekeeper,
       Openra::IRCBot::Plugins::Gaynonce,
       Openra::IRCBot::Plugins::Happy,
+      Openra::IRCBot::Plugins::JizzKcs,
       Openra::IRCBot::Plugins::Na,
       Openra::IRCBot::Plugins::Orb,
       Openra::IRCBot::Plugins::Pinkman,
