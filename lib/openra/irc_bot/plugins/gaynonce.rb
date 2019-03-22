@@ -11,6 +11,8 @@ module Openra
             You ever daydream about kissing young boys?...
             Nah, me neither, they're too young and not sexy and
             have unattractive genetalia.
+
+            https://www.twitch.tv/fiveacescheckmate/clip/DrabHelpfulNarwhalHassanChop
           NONCE
         end
       end
